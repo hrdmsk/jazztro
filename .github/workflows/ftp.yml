@@ -15,8 +15,4 @@ jobs:
         username: ${{ secrets.ftp_user }}
         password: ${{ secrets.ftp_password }}
         server-dir: /home/4y4/www/jazztro.4y4.jp
-        exclude: |
-        **/.git*
-        **/.git*/**
-        **/node_modules/**
         
